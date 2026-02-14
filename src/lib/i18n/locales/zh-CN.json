@@ -1,0 +1,73 @@
+{
+  "common": {
+    "search": "搜索",
+    "searchPlaceholder": "搜索文章...",
+    "loading": "加载中...",
+    "backToHome": "返回首页"
+  },
+  "nav": {
+    "home": "首页",
+    "archives": "归档",
+    "categories": "分类",
+    "tags": "标签",
+    "manage": "管理后台",
+    "logout": "退出登录"
+  },
+  "home": {
+    "latestPosts": "最新文章",
+    "noArticles": "暂无文章",
+    "searchResults": "找到 {count} 篇相关文章"
+  },
+  "article": {
+    "readMore": "阅读全文",
+    "totalArticles": "篇文章",
+    "notFound": "文章未找到",
+    "notFoundDesc": "抱歉，您访问的文章不存在或已被删除。",
+    "updatedAt": "更新于",
+    "readTime": "约 {minutes} 分钟"
+  },
+  "category": {
+    "title": "分类",
+    "totalCategories": "个分类",
+    "noCategories": "暂无分类",
+    "articlesInCategory": "{name} 分类下的文章"
+  },
+  "tag": {
+    "title": "标签",
+    "totalTags": "个标签",
+    "noTags": "暂无标签",
+    "articlesWithTag": "标签 {name} 下的文章"
+  },
+  "archives": {
+    "title": "归档",
+    "totalArticles": "共 {count} 篇文章",
+    "noArticles": "暂无文章"
+  },
+  "sidebar": {
+    "authorCard": "作者信息",
+    "status": "在线",
+    "latestPosts": "最新文章"
+  },
+  "comment": {
+    "title": "评论",
+    "placeholder": "写下你的评论...",
+    "replyPlaceholder": "写下你的回复...",
+    "nickname": "昵称",
+    "email": "邮箱（可选）",
+    "submit": "发表评论",
+    "submitReply": "提交回复",
+    "submitting": "提交中...",
+    "cancel": "取消",
+    "reply": "回复",
+    "noComments": "暂无评论，快来发表第一条评论吧！",
+    "nicknameRequired": "请输入昵称",
+    "contentRequired": "请输入评论内容",
+    "authorTag": "作者",
+    "postingAsAdmin": "以管理员身份发表评论: {name}"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. 保留所有权利。",
+    "poweredBy": "由 Noteva 强力驱动",
+    "theme": "主题"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "search": "Search",
+    "searchPlaceholder": "Search articles...",
+    "loading": "Loading...",
+    "backToHome": "Back to Home"
+  },
+  "nav": {
+    "home": "Home",
+    "archives": "Archives",
+    "categories": "Categories",
+    "tags": "Tags",
+    "manage": "Dashboard",
+    "logout": "Logout"
+  },
+  "home": {
+    "latestPosts": "Latest Posts",
+    "noArticles": "No articles yet",
+    "searchResults": "Found {count} articles"
+  },
+  "article": {
+    "readMore": "Read More",
+    "totalArticles": " articles",
+    "notFound": "Article Not Found",
+    "notFoundDesc": "Sorry, the article you're looking for doesn't exist or has been removed.",
+    "updatedAt": "Updated on",
+    "readTime": "About {minutes} min read"
+  },
+  "category": {
+    "title": "Categories",
+    "totalCategories": " categories",
+    "noCategories": "No categories yet",
+    "articlesInCategory": "Articles in {name}"
+  },
+  "tag": {
+    "title": "Tags",
+    "totalTags": " tags",
+    "noTags": "No tags yet",
+    "articlesWithTag": "Articles tagged with {name}"
+  },
+  "archives": {
+    "title": "Archives",
+    "totalArticles": "{count} articles in total",
+    "noArticles": "No articles yet"
+  },
+  "sidebar": {
+    "authorCard": "Author Info",
+    "status": "Online",
+    "latestPosts": "Latest Posts"
+  },
+  "comment": {
+    "title": "Comments",
+    "placeholder": "Write your comment...",
+    "replyPlaceholder": "Write your reply...",
+    "nickname": "Nickname",
+    "email": "Email (optional)",
+    "submit": "Submit",
+    "submitReply": "Submit Reply",
+    "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "reply": "Reply",
+    "noComments": "No comments yet. Be the first to comment!",
+    "nicknameRequired": "Please enter nickname",
+    "contentRequired": "Please enter comment content",
+    "authorTag": "Author",
+    "postingAsAdmin": "Posting as admin: {name}"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. All rights reserved.",
+    "poweredBy": "Powered by Noteva",
+    "theme": "Theme"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Prose",
+  "short": "prose",
+  "description": "轻量优雅的三栏布局博客主题",
+  "version": "0.1.2",
+  "author": "Noteva Team",
+  "url": "https://github.com/noteva26/noteva-prose",
+  "preview": "preview.png",
+  "requires": {
+    "noteva": ">=0.1.1"
+  },
+  "configuration": {}
+}

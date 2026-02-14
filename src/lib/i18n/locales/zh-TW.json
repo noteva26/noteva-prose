@@ -1,0 +1,73 @@
+{
+  "common": {
+    "search": "搜尋",
+    "searchPlaceholder": "搜尋文章...",
+    "loading": "載入中...",
+    "backToHome": "返回首頁"
+  },
+  "nav": {
+    "home": "首頁",
+    "archives": "歸檔",
+    "categories": "分類",
+    "tags": "標籤",
+    "manage": "管理後台",
+    "logout": "登出"
+  },
+  "home": {
+    "latestPosts": "最新文章",
+    "noArticles": "暫無文章",
+    "searchResults": "找到 {count} 篇相關文章"
+  },
+  "article": {
+    "readMore": "閱讀全文",
+    "totalArticles": "篇文章",
+    "notFound": "文章未找到",
+    "notFoundDesc": "抱歉，您訪問的文章不存在或已被刪除。",
+    "updatedAt": "更新於",
+    "readTime": "約 {minutes} 分鐘"
+  },
+  "category": {
+    "title": "分類",
+    "totalCategories": "個分類",
+    "noCategories": "暫無分類",
+    "articlesInCategory": "{name} 分類下的文章"
+  },
+  "tag": {
+    "title": "標籤",
+    "totalTags": "個標籤",
+    "noTags": "暫無標籤",
+    "articlesWithTag": "標籤 {name} 下的文章"
+  },
+  "archives": {
+    "title": "歸檔",
+    "totalArticles": "共 {count} 篇文章",
+    "noArticles": "暫無文章"
+  },
+  "sidebar": {
+    "authorCard": "作者資訊",
+    "status": "線上",
+    "latestPosts": "最新文章"
+  },
+  "comment": {
+    "title": "評論",
+    "placeholder": "寫下你的評論...",
+    "replyPlaceholder": "寫下你的回覆...",
+    "nickname": "暱稱",
+    "email": "郵箱（可選）",
+    "submit": "發表評論",
+    "submitReply": "提交回覆",
+    "submitting": "提交中...",
+    "cancel": "取消",
+    "reply": "回覆",
+    "noComments": "暫無評論，快來發表第一條評論吧！",
+    "nicknameRequired": "請輸入暱稱",
+    "contentRequired": "請輸入評論內容",
+    "authorTag": "作者",
+    "postingAsAdmin": "以管理員身份發表評論: {name}"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. 保留所有權利。",
+    "poweredBy": "由 Noteva 強力驅動",
+    "theme": "主題"
+  }
+}

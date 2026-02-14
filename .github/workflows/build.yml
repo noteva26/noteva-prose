@@ -1,0 +1,42 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Package
+        run: |
+          mkdir -p release/prose
+          cp -r dist release/prose/
+          cp theme.json preview.png README.md release/prose/
+          cd release && zip -r ../prose.zip prose/
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: prose.zip
+          generate_release_notes: true
