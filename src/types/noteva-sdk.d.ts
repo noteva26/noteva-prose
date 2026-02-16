@@ -69,6 +69,15 @@ interface NotevaSDK {
   user: NotevaUser;
   hooks?: NotevaHooks;
   events?: NotevaEvents;
+  emoji?: {
+    categories: Array<{ id: string; label: Record<string, string>; icon: string; emojis: Record<string, string> }>;
+    getCategories(locale?: string): Array<{ id: string; label: string; icon: string; emojis: Record<string, string> }>;
+    getMap(): Record<string, string>;
+    loadTwemoji(): Promise<any>;
+    parse(element: HTMLElement, options?: Record<string, any>): Promise<void>;
+    parseSync(element: HTMLElement, options?: Record<string, any>): void;
+    isLoaded(): boolean;
+  };
 }
 
 declare global {

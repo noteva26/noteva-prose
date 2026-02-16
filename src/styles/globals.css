@@ -550,3 +550,14 @@ img[loading="lazy"].loaded {
     padding-bottom: 3rem !important;
   }
 }
+
+/* 毛玻璃效果 */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .glass {
+  background: rgba(26, 26, 46, 0.8);
+}

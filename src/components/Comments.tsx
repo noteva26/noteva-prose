@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { getNoteva } from "@/hooks/useNoteva";
 import { useTranslation } from "@/lib/i18n";
 import PluginSlot from "./PluginSlot";
+import EmojiPicker from "./EmojiPicker";
 
 interface Comment {
   id: number;
@@ -273,13 +274,18 @@ export default function Comments({ articleId, authorId }: CommentsProps) {
 
       {/* 评论表单 */}
       <div className="mb-8 p-6 bg-card rounded-lg shadow-card">
-        <textarea
-          placeholder={t("comment.placeholder")}
-          value={form.content}
-          onChange={(e) => setForm((f) => ({ ...f, content: e.target.value }))}
-          rows={4}
-          className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary resize-none mb-4"
-        />
+        <div className="relative mb-4">
+          <textarea
+            placeholder={t("comment.placeholder")}
+            value={form.content}
+            onChange={(e) => setForm((f) => ({ ...f, content: e.target.value }))}
+            rows={4}
+            className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+          />
+          <div className="absolute bottom-2 right-2">
+            <EmojiPicker onSelect={(emoji) => setForm((f) => ({ ...f, content: f.content + emoji }))} />
+          </div>
+        </div>
         {!isAdmin && (
           <div className="flex gap-3 mb-4">
             <input
